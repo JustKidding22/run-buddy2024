@@ -57,14 +57,12 @@ footer {
 }
 
 footer h2 {
-    
     color: #024e76;
     font-size: 30px;
     margin: 0;
 }
 
 footer div {
-    
     line-height: 1.5;
     text-align: right;
 }
@@ -147,6 +145,24 @@ section {
 
 /* Hero Style Ends */
 
+.section-title {
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+    font-size: 55px;
+    color: #024e76;
+    border-bottom: 3px solid;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+
 /* what-we-do Start */
 
 
@@ -168,28 +184,15 @@ section {
     background: #fce138;
 }
 
-*/ 
-
-.section-title {
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
-    font-size: 55px;
-    color: #024e76;
-    border-bottom: 3px solid;
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
-.secondary-border {
-    border-color: #39a6b2;
-}
-
-.steps {
-    margin-bottom: 80px;
+.step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
@@ -230,21 +233,11 @@ section {
     color: #024e76;
 }
 
-.step {
-    margin: 50px auto;
-    padding-bottom: 50px;
-    width: 80%;
-    border-bottom: 1px solid #39a6b2;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
+
 
 /* what-YOU-do End */
 
 /* Trainer Section */
-
 
 .trainers {
    width: 100%;
@@ -343,3 +336,4 @@ section {
 .flex-row {
     display: flex;
 }
+
